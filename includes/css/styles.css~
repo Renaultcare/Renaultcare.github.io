@@ -1,0 +1,1178 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.expo {
+  width: 100%;
+  height: 377px;
+  background-image:url(expo-image-new.jpg);
+  background-position: bottom right;;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border: none;
+}
+
+.small-container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.search {
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+
+.search h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.search .form-container {
+
+
+}
+
+.search .form-inline {
+background-color: #FFD400;
+padding: 8px;
+
+}
+
+.search input {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+
+}
+
+.search .form-control {
+  border-radius: 0px;
+  width: 500px;
+
+}
+
+.search .btn {
+  border-radius: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #333333;
+  margin-left: 10px;
+}
+
+.search .btn .glyphicon {
+  color: #fff;
+
+}
+
+.search .btn span .glyphicon .glyphicon-search {
+  font-size: 50px;
+}
+
+/*  shortcut starts from here */
+
+.shortcut {
+margin-top: -20px;
+
+}
+
+.shortcut .service {
+  text-align: center;
+}
+
+.shortcut .service h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 20px;
+  letter-spacing : 0px;
+  color : #555555;
+  font-weight: 100;
+}
+
+.icon-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+
+  background-color: #fff;
+  box-shadow: 0px 4px 5px #888888;
+  margin: auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.icon-container:hover {
+  box-shadow: 0px 4px 5px #555555;
+}
+
+.icon-container img {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+
+/* framework starts from here */
+
+.framework {
+
+}
+
+.framework .framework-heading {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.framework .framework-heading h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 30px;
+  letter-spacing : 0.3px;
+  color : #333333;
+  font-weight: lighter;
+}
+
+.framework .framework-heading h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 26px;
+
+  color : #333333;
+  font-weight: lighter;
+}
+
+.framework .framework-steps {
+  width: 100%;
+  height: auto;
+  background-color: #EDEBDD;
+  box-shadow: 0px 0px 4px #3D3D3C;
+  margin-top: 40px;
+}
+
+.framework .framework-steps .small-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.framework .framework-steps .small-container .col{
+
+}
+
+.framework .framework-steps .small-container .f-step {
+
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+.framework .framework-steps .small-container .f-step .fsc {
+width: 95%;
+background-color: #fff;
+box-shadow: 0px 4px 6px #888888;
+}
+
+.framework .framework-steps .small-container .f-step img {
+
+  padding-top: 7px;
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+.f-step h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 14px;
+  color : #1A1A1A;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.f-step p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 12px;
+  color : #666666;
+  font-weight: 400;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+/* solution starts from here --*/
+
+.solution {
+text-align: center;
+
+}
+.solution-heading {
+  margin-top: 50px;
+}
+.solution-heading h2 {
+  padding-top: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size :30px;
+  color : #333333;
+  font-weight: lighter;
+}
+
+.solution-heading h3 {
+  margin-top: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size :26px;
+  color : #333333;
+  font-weight: lighter;
+}
+
+.solution-desc {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.solution-desc .sol-card {
+
+}
+
+.sol-card .card-container {
+
+  width: 80%;
+  margin: auto;
+}
+
+.sol-card .card-container img {
+  width: 40px;
+  height: auto;
+}
+
+.sol-card .card-container h4 {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size :24px;
+  color : #333333;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.sol-card .card-container p {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 14px;
+  letter-spacing : 0.06px;
+  color : #555555;
+  font-weight: 300;
+}
+
+/*  app-download starts from here --*/
+
+.app-download {
+  background-color: #EDEBDD;
+  box-shadow: 0px 0px 4px #3D3D3C;
+}
+
+.app-download .app-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.app-container .app-pic-case {
+  text-align: center;
+}
+
+.app-download .app-pic-case img {
+  margin: 21px 0px 0px 80px;
+}
+
+.app-download .app-text-case {
+  width: 40%;
+  text-align: center;
+}
+
+.app-download .app-text-case h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 26px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: lighter;
+}
+
+.app-download .app-text-case p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 14px;
+  letter-spacing : 0.06px;
+  color : #555555;
+  font-weight: 300;
+}
+
+.app-download .app-text-case .store-badge img {
+  padding: 20px;
+}
+
+/* assistance starts fro here --*/
+
+.assistance {
+
+}
+
+.assistance .assistance-container {
+  margin-top: 60px;
+}
+
+.assistance .assistance-container .assi-header {
+  text-align: center;
+}
+
+.assistance .assistance-container .assi-header h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 26px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: lighter;
+}
+
+.assistance .assistance-container .assi-header h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 22px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: lighter;
+}
+
+.assistance .assistance-container .assi-header h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 18px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: lighter;
+}
+
+.assi-body {
+  margin-top: 40px;
+}
+
+.assi-pic .assi-pic-cont {
+  width: 90%;
+  height: auto;
+  margin-left: 30%;
+  margin-top: 4%;
+}
+
+.assi-body .assi-pic img {
+  width: 298px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 6px #888888;
+}
+
+.assi-desc h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 26px;
+  letter-spacing : 0.13px;
+  color : #222222;
+  font-weight: lighter;
+}
+
+.assi-desc p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 14px;
+  letter-spacing : 0.13px;
+  color : #444444;
+  font-weight: 300;
+}
+  /*  contact starts from here --*/
+
+.contact {
+
+
+}
+
+.contact .contact-container {
+  margin-top: 60px;
+  background-color: #EDEBDD;
+  box-shadow: 0px 0px 4px #3D3D3C;
+  padding-bottom: 40px;
+}
+
+.contact-container .contact-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-container .contact-header h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 26px;
+  letter-spacing : 0.13px;
+  color : #222222;
+  font-weight: lighter;
+}
+
+.contact-container .contact-header h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 18px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: lighter;
+}
+
+.contact-container .contact-header h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 16px;
+  letter-spacing : 0.13px;
+  color : #444444;
+  font-weight: 300;
+}
+
+.renault-office {
+  margin-top: 50px;
+}
+
+.renault-office .office-name-cont {
+  width: 90%;
+  height: auto;
+
+  margin: auto;
+}
+
+.renault-office .office-name-cont h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 18px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.renault-office .office-name-cont p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 16px;
+  letter-spacing : 0.13px;
+  color : #888888;
+  font-weight: 300;
+}
+
+.renault-social {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.renault-social h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 18px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: lighter;
+
+}
+
+.renault-social .social-image-cont {
+  width: 50%;
+  margin: auto;
+}
+
+.renault-social .social-image-cont a img {
+  width: 70px;
+  height: auto;
+  padding: 20px
+}
+
+.renault-footer {
+  text-align: center;
+}
+
+.renault-footer h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 18px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: lighter;
+}
+
+.renault-footer p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 18px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.footer-box {
+  width: 30%;
+  margin: auto;
+}
+
+.footer-box p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 16px;
+  letter-spacing : 0.13px;
+  color :#007C8E;
+  font-weight: normal;
+  font-style: normal;
+  cursor: pointer;
+}
+/* ---- main form starts from here ---*/
+
+.appointment-expo {
+  width: 100%;
+  height: 400px;
+  background-color: green;
+  height: 768px;
+  background-image:url(main-form-image.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.appointment-expo .container {
+  /*background-color: yellow;*/
+
+
+}
+
+.appointment-expo .appointment-section {
+
+  /*background-color: blue;*/
+  position: relative;
+  height: 90vh;
+  vertical-align: middle;
+
+}
+
+.appointment-expo .appointment-section .appointment-section-container {
+
+  /*background-color: violet;*/
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin: auto;
+}
+
+.appointment-expo .appointment-section .appointment-desc {
+  /*background-color: black;*/
+
+}
+
+.appointment-expo .appointment-section .appointment-form {
+  background-color: #F2F2F2;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.appointment-expo .appointment-section .appointment-form .form-header {
+  background-color: #fff;
+}
+
+.appointment-expo .appointment-section .appointment-form .form-header h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 22px;
+  letter-spacing : 0.13px;
+  color : #000000;
+  font-weight: lighter;
+  padding-top: 20px;
+  margin: 0px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.appointment-expo .appointment-section .appointment-form #form-holder {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#form-holder .form-group {
+  margin-bottom: 0px;
+}
+
+.appointment-expo .appointment-section .appointment-form .input-group {
+  padding-top: 20px;
+  width: 100%;
+}
+
+#form-holder .input-group .input-group-addon {
+  border: none;
+  background-color: #FCEE21;
+  border-radius: 0px;
+  padding: 10px 10px;
+}
+
+#form-holder .input-group .input-group-addon img {
+  width: 40px;
+}
+
+#form-holder .form-control{
+  height: 42px;
+  border: none;
+  border-radius: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 14px;
+  letter-spacing: 1px;
+  color : #444;
+  font-weight: lighter;
+}
+
+#form-holder #service-type label#service-type-radio-1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 16px;
+  padding-left: 5px;
+  color : #000000;
+  font-weight: 300;
+  cursor: default;
+}
+
+#form-holder .form-horizontel {
+
+}
+
+#form-holder .radio {
+  background-color: #ffffff;
+  padding: 10px 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+#form-holder #service-type label.radio-one {
+padding-left: 0%;
+color: #222222;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#form-holder #service-type label.radio-two {
+padding-left: 50%;
+color: #222222;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+#form-holder #job label#job-required {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size : 16px;
+  padding-left: 15px;
+  padding-top: 10px;
+  color : #000000;
+  font-weight: 300;
+  cursor: default;
+  width: 100%;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  margin-bottom: 0px;
+}
+
+#form-holder #job .checkbox label {
+  padding-left: 47px;
+  margin-left: 30px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size : 14px !important;
+  font-weight: 300 !important;
+  color: #cccccc !important;
+  letter-spacing: 0.25px;
+}
+
+#form-holder #job .checkbox {
+background-color: #fff;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+#form-holder #job .checkbox#checkbox-one {
+  padding-top: 20px;
+}
+
+#form-holder #job .checkbox input {
+margin-left: -50px;
+
+}
+
+#form-holder #job .checkbox input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #FCEE21;
+  border-radius: 0px;
+  color: #ffffff;
+}
+
+#form-holder h5 {
+  margin-top: 25px;
+  padding-left: 25px;
+}
+
+
+
+
+
+/*---- profile starts from here ---*/
+
+.profile-expo {
+  width: 100%;
+
+
+  height: 768px;
+  background-image:url(profile-bg.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.profile-container {
+
+
+}
+
+.profile-container .profile-cont {
+  margin: auto;
+
+  text-align: center;
+}
+
+.profile-main-image img {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 4% auto 0% auto;
+}
+
+.profile-star-image img {
+  margin-top: 10px;
+}
+
+.profile-container h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  font-size: 22px;
+  text-shadow: 2px 2px 3px #444;
+}
+
+.profile-button-cont {
+
+  width: 50%;
+  margin: auto;
+}
+
+.appointment-button button {
+  border-radius: 0px;
+  background-color: #FCEE21;
+  color: #555;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  width: 220px;
+  border: 0px;
+  margin-top: 10px;
+}
+
+.profile-tabs-container {
+  margin: 30px auto auto auto;
+  width: 80%;
+  background-color: #fff;
+}
+
+.profile-tabs-container .nav-tabs.row {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.profile-tabs-container .nav-tabs {
+  border-bottom: 0px;
+  border-radius: 0px;
+
+}
+
+.profile-tabs-container .nav-tabs>li>a {
+  border-radius: 0px;
+  margin-right: 0px;
+  background-color: #FCEE21;
+  font-weight: 500;
+
+  color: #555;
+}
+
+.profile-tabs-container .nav-tabs.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  border: 0px;
+  border-bottom-color: none;
+}
+
+.profile-tabs-container .nav-tabs.nav-tabs>li.active>a {
+  background-color: #FFF;
+  color: #444;
+}
+
+ .profile-tabs-container.nav>li>a:hover{
+  background-color: #fff;
+}
+
+.profile-tabs-container .nav-tabs.nav-tabs>li {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+
+
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.profile-tabs-container .nav-tabs img {
+  width: 20px;
+  height: auto;
+}
+
+.profile-tabs-container .tab-content {
+  padding-top: 2px;
+  background-color: #fff;
+
+}
+
+.profile-tabs-container .address-details {
+  text-align: left;
+}
+
+.profile-tabs-container .sc-basic-heading {
+  text-align: left;
+  padding-left: 45px;
+  background-color: #fff;
+  width: 99%;
+  margin: auto;
+}
+
+
+.profile-tabs-container .sc-basic-heading h4 {
+  color: #555;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  text-shadow: none;
+
+  font-weight: 300;
+}
+
+.profile-tabs-container .sc-basic-container {
+  background-color: #fff;
+  width: 99%;
+  margin: auto;
+  margin-top: 2px;
+  padding-bottom: 5px;
+}
+
+.profile-tabs-container .sc-basic-container h5 {
+  color: #555;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.profile-tabs-container .sc-basic-container p {
+  color: #555;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  padding-top: 8px;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+/*  tracker starts from here ---*/
+
+
+.tracker-expo {
+  width: 100%;
+
+
+  height: auto;
+  background-image:url(tracker-bg.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+
+}
+
+.tracker-body {
+
+  margin-top: 50px;
+}
+
+.tracker-console {
+  background-color: #F2F2F2;
+  padding-bottom: 50px;
+}
+
+.track {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+
+}
+
+.tracker-heading {
+  background-color: #fff;
+
+}
+
+.tracker-heading h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+letter-spacing: 0.13px;
+color: #000000;
+font-weight: lighter;
+padding-top: 20px;
+margin: 0px;
+padding-bottom: 20px;
+padding-left: 15px;
+}
+
+
+.track li img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #f1f1f1;
+  border-radius: 50%;
+  background-color: #FCEE21;
+  margin-left: 1px;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+  color: #153ea7;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+}
+
+.track li img:after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  position: absolute;
+  margin-top: 15px;
+  z-index: 99;
+  background-color: #000;
+  display: block;
+}
+
+.track li p.track-done {
+
+}
+
+
+.track li {
+  margin-top: 50px;
+
+}
+
+.track li .track-label{}
+
+.track:after {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  z-index: 0;
+}
+
+.track li .track-label{
+  margin-left: 70px;
+
+  margin-top: -40px;
+}
+
+.track li .track-label p {
+
+}
+
+
+.track-label {
+background-color: #fff;
+padding: 1px 0px 1px 15px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.track-label h4 {
+  color: #153ea7;
+  font-weight: 300;
+  font-size: 16px;
+  color: #444;
+  letter-spacing: 1px;
+}
+
+.track-label h5 {
+  color: #555;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.track-label h6 {
+  color: #555;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.tracker-side-heading-cont {
+  margin: auto;
+
+  text-align: center;
+  margin-top: 20%;
+}
+
+.tracker-side-heading-cont h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.tracker-side-heading-cont h4 span {
+  color: #FCEE21;
+}
+
+/* map starts from here --*/
+
+.gas-expo {
+  width: 100%;
+
+
+  height: 220;
+  background-image:url(gas-bg.png);
+  background-color: #000;
+
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:auto;
+  padding-bottom: 20px;
+
+}
+
+.gas-expo .search {
+  position: absolute;
+  left:50%;
+  top:20%;
+  transform: translate(-50%, -50%);
+}
+
+.map-main-cont {
+  padding-bottom: 40px;
+
+}
+
+
+/* breakdown starts from here*/
+
+.breakdown-expo {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  background-position: bottom right;;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.breakdown-image {
+  position: relative;
+  height: 500;
+}
+
+.breakdown-image-cont {
+  width: 100%;
+  height: 500;
+  background-image:url(breakdown.png);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  position: relative;
+}
+
+.nomargin {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.breakdown-container {
+  width: 100%;
+  height: auto;
+}
+.breakdown-expo .breakdown-image img {
+
+
+}
+
+.breakdown-details {
+  background-color: yellow;
+  text-align: center;
+  height: 500px;
+}
+
+.breakdown-details h6 {
+  margin-top: 20%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #222;
+  font-weight: normal;
+}
+
+.breakdown-details h6 span {
+  padding: 2px 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+.breakdown-details h3 {
+  margin-top: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  color: #222;
+  font-weight: normal;
+}
+
+.breakdown-details h1 {
+  margin-top: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+  color: #000;
+  font-weight:100;
+}

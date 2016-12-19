@@ -1,0 +1,259 @@
+<html>
+	<head>
+
+		<!-- Website Title & Description-->
+		<title>Renault Care</title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!-- reset css-->
+		<link href="includes/css/reset.css" rel="stylesheet" />
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Open Sans font -->
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- Source Sans Pro -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
+
+		<!--Modernizr-->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="appointment-expo">
+	<div class="container">
+		<nav class="navbar navbar-inverse">
+
+
+
+			<div class="container-fluid">
+				<div class="container nopadding" id="special">
+					<div class="navbar-header">
+
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Renault Logo" /></a>
+					</div>
+
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+			        <li><a href="index.html">Home</a></li>
+							<hr />
+			        <li><a href="tracker-form.html">Track Service</a></li>
+							<hr />
+			        <li><a href="gas-station.html">Gas Station</a></li>
+							<hr />
+			        <li><a href="reminder.html">Reminders</a></li>
+							<hr />
+							<li><a href="breakdown.html">Breakdown</a></li>
+							<hr />
+							<li><a href="mydetails.html">My Details</a></li>
+							<hr id="nav-last-hr"/>
+			      </ul>
+					</div>
+				</div><!-- /.small-container -->
+			</div>
+		</nav>
+	</div><!-- conatiner-->
+
+		<div class="appointment-section">
+			<div class="container">
+			<div class="appointment-section-container row nomargin">
+				<div class="appointment-desc col-lg-7 col-md-6 hidden-sm hidden-xs">
+					<h1><span>RENAULT</span> by your side</h1>
+					<h4>Pamper your car, leave it to our skilled technicians and engineers. At Renault, we train them to ensure high quality maintenance for optimum road handling, comfort and finish.</h4>
+				</div><!-- /.appointment-desc -->
+				<div class="appointment-form col-lg-5 col-md-6">
+					<div class="form-header">
+						<h2>Service Appointment</h2>
+					</div><!-- /.form-header -->
+					<form id="form-holder">
+						<!-- dealer-->
+						<div class="form-group" id="dealer">
+							<div class="input-group">
+      					<div class="input-group-addon"><img src="images/social copy.svg" alt="dealer-icon" /></div>
+      					<input type="text" class="form-control" id="dealer-input" placeholder="Please select preferred dealer">
+      				</div>
+						</div><!-- /.form-group -->
+
+						<!-- date-->
+						<div class="form-group" id="date">
+							<div class="input-group">
+      					<div class="input-group-addon"><img src="images/time copy.svg" alt="dealer-icon" /></div>
+      					<input type="text" class="form-control" id="dealer-input" placeholder="DD / MM / YYYY">
+      				</div>
+						</div><!-- /.form-group -->
+
+						<!-- time-->
+						<div class="form-group" id="time">
+							<div class="input-group">
+      					<div class="input-group-addon"><img src="images/clock copy.svg" alt="dealer-icon" /></div>
+								<select class="form-control">
+								  <option>Please select preferred time</option>
+								  <option>10:00 am - 12:00 pm</option>
+								  <option>12:00 pm - 02:00 pm</option>
+								  <option>02:00 pm - 04:00 pm</option>
+								  <option>04:00 pm - 06:00 pm</option>
+								</select>
+      				</div>
+						</div><!-- /.form-group -->
+
+						<!-- car model-->
+						<div class="form-group" id="model">
+							<div class="input-group">
+      					<div class="input-group-addon"><img src="images/form-car.svg" alt="dealer-icon" /></div>
+								<select class="form-control">
+								  <option>Please select Car Model</option>
+								  <option>Renault Kwid</option>
+								  <option>Renault Pulse</option>
+								  <option>Renault Scala</option>
+								  <option>Renault Duster</option>
+									<option>Renault Lodgy</option>
+									<option>Renault Fluence</option>
+									<option>Renault Koleos</option>
+								</select>
+      				</div>
+						</div><!-- /.form-group -->
+
+						<!-- Service type-->
+						<form class="form-horizontal">
+							<div class="form-group" id="service-type">
+								<div class="input-group">
+									<div class="radio row">
+									<div class="radio-label col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+
+									<label id="service-type-radio-1" for="text">Service type</label>
+									</div><!-- /.radio-label -->
+
+									<div class="radio-options col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+
+									  <label class="radio-one">
+									    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+									    Free
+									  </label>
+										<label class="radio-two">
+									    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									    Paid
+									  </label>
+										</div><!-- /.radio-options -->
+									</div>
+								</div>
+							</div><!-- /.form-group -->
+
+
+						<!-- time-->
+							<div class="form-group" id="job">
+								<div class="input-group">
+	      					<div class="input-group-addon"><img src="images/job.svg" alt="dealer-icon" /></div>
+	      					<label id="job-required" for="text">Job Required</label>
+	      				</div>
+								<div class="checkbox" id="checkbox-one">
+							  <label>
+							    <input type="checkbox" value="">
+							    Car Service
+							  </label>
+							</div>
+							<div class="checkbox">
+						  <label>
+						    <input type="checkbox" value="">
+						    Car Wash
+						  </label>
+						</div>
+							</div><!-- /.form-group -->
+
+						<h5>Job Instruction to workshop</h5>
+						<div class="text-form-container">
+							<textarea class="form-control" rows="3"></textarea>
+						</div><!-- /.text-form-conatiner -->
+
+						<div class="submit-container">
+							<a class="btn btn-default" href="thank.html" role="button">Book my Appointment</a>
+						</div><!-- /.submit-container -->
+					</form>
+				</div><!-- /.appointment-form -->
+			</div><!-- /.appointment-section-container -->
+			</div><!-- /.container -->
+		</div><!-- /.appointment-section -->
+
+	</div><!-- /.container -->
+</div><!-- /.appointment-expo -->
+<div class="re-footer">
+	<div class="container">
+		<div class="re-footer-cont">
+			<h4>Passion for life</h4>
+			<div class="re-social-cont">
+				<a href="#"><img src="images/google-plus.svg" alt="google plus" /></a>
+				<a href="#"><img src="images/facebook.svg" alt="facebook" /></a>
+				<a href="#"><img src="images/twitter.svg" alt="twitter" /></a>
+			</div><!-- /.re-social-cont -->
+			<div class="re-footer-bottom">
+				<p>
+					&copy Renault 2016
+				</p>
+			</div><!-- /.re-footer-bottom -->
+		</div><!-- /.re-footer-cont -->
+	</div><!-- /.container -->
+</div><!-- /.re-footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- First try for the online version of jQuery-->
+
+
+<script src="http://code.jquery.com/jquery.js"></script>
+
+
+<!-- If no online access, fallback to our hardcoded version of jQuery -->
+<script>window.jQuery || document.write('<scrsrc="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+<!-- Bootstrap JS -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Custom JS -->
+<script src="includes/js/script.js"></script>
+
+</body>
+
+</html>
